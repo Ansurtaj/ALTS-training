@@ -1,0 +1,23 @@
+<html>
+   <head>  
+      <script>
+         function concatenate(first, last) {
+            var full;
+            full = first + last;
+            return full;
+         }
+         function secondFunction() {
+            var result;
+            result = concatenate('Senthil', ' Narayanan');
+            document.write (result );
+         }
+      </script>      
+   </head>
+   
+   <body>
+      <p>Click the following button to call the function</p>      
+      <form>
+         <input type = "button" onclick = "secondFunction()" value = "Call Function">
+      </form>      
+  </body>
+</html>
