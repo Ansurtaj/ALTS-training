@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lamg="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=1, initial-scale=1.0">
+        <title>Image</title>
+    </head>
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 50px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /*Bouncing image*/
+        .bounce:hover{
+            transform: rotateZ(50px);
+        }
+        /*Rotating image*/
+        .rotate:hover{
+            transform: rotateX(360deg);
+        }
+        
+    </style>
+<body>
+    <h1>Scale Image Effects</h1>
+<div class="container">
+<div>
+<h2>1. Bouncing Image</h2>
+<img src="https://images5.alphacoders.com/127/1276272.jpg" alt="Bounce Image" class="Bounce">
+</div>
+<div>
+<h2>2. Zoom In & Out</h2>
+<img src="https://images5.alphacoders.com/127/1276272.jpg" alt="Zoom Animation" class="zoom-animate">
+</div>
+<div>
+<h2>3. Rotate Image</h2>
+<img src="https://images5.alphacoders.com/127/1276272.jpg" alt=" rotate" class="rotate">
+</div>
+</body>
+</html>
