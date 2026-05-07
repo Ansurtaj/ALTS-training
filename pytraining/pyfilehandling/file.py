@@ -1,0 +1,5 @@
+f=open("Book.txt","r")
+print(f.read())
+print(type(f))
+print(f)
+f.close()

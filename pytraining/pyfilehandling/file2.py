@@ -1,0 +1,5 @@
+f=open("Book2.txt","r")
+str=f.readlines()
+print(type(str))
+print(str)
+f.close()
